@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Webpage Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
+
+        nav {
+            padding: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .navbar-brand {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-item {
+            margin-right: 10px;
+        }
+
+        .nav-item a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .nav-item a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar-nav {
+                margin-top: 10px;
+                justify-content: center;
+            }
+
+            .nav-item {
+                margin: 5px 0;
+            }
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-content {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .card-link {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-link:hover {
+            text-decoration: underline;
+        }
+
+        td{
+            padding: 50px;
+        }
+
+        tr{
+            padding: 200px;
+        }
+
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="navbar-brand" href="#home"><img src="./cipok/cipo.png" alt="asdasdasd"></a>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html">Főoldal</a></li>
+                <li class="nav-item"><a href="cipo.html">Cipők</a></li>
+                <li class="nav-item"><a href="ffiruhak.html">Férfi ruha</a></li>
+                <li class="nav-item"><a href="noiruhak.html">Női ruha</a></li>
+                <li class="nav-item"><a href="kiegek.html">Kiegeszítők</a></li>
+                <li class="nav-item"><a href="gyruhak.html">Gyermek ruhák</a></li>
+                <li class="nav-item"><a href="rolunk.html">Rólunk</a></li>
+                <li class="nav-item"><a href="Kapcsolat.html">Kapcsolat</a></li>
+                <li class="nav-item"><a href="login.html">Bejelentkezés</a></li>
+            </ul>
+        </div>
+    </nav>
+    <table>
+        <tr>
+            <div class="container">
+                <td>
+                    <div class="card">
+                        <h2 class="card-title">JORDAN 1 TRAVIS SCOTT X FRAGMENT</h2>
+                        <p class="card-content"><img style="width: 100%;" src="./cipok/adasdasdada.webp" alt=""></p>
+                        <a class="card-link gomb" href="#">Vásárlás</a>
+                        <p>1 899 990Ft</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <h2 class="card-title">JORDAN 1 RETRO HIGH TRAVIS SCOTT</h2>
+                        <p class="card-content"><img style="width: 100%;" src="./cipok/aha.webp" alt=""></p>
+                        <a class="card-link gomb" href="#">Vásárlás</a>
+                        <p>1 500 000Ft</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <h2 class="card-title">Jordan 4 RETRO Travis Scott Cactus Jack</h2>
+                        <p class="card-content"><img style="width: 100%;" src="./cipok/asd.webp" alt=""></p>
+                        <a class="card-link gomb" href="#">Vásárlás</a>
+                        <p>1 400 000Ft</p>
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="container">
+                <td>
+                    <div class="card">
+                        <h2 class="card-title">AIR JORDAN 1 MID SE SPACE JAM</h2>
+                        <p class="card-content"><img style="width: 100%;" src="./cipok/asdasdasdas.webp" alt=""></p>
+                        <a class="card-link gomb" href="#">Vásárlás</a>
+                        <p>71 990Ft</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <h2 class="card-title">AIR JORDAN 1 LOW TRAVIS SCOTT REVERSE MOCHA</h2>
+                        <p class="card-content"><img style="width: 100%;" src="./cipok/nagyonteccikkosztanak.webp" alt=""></p>
+                        <a class="card-link gomb" href="#">Vásárlás</a>
+                        <p>699 990Ft</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <h2 class="card-title">AIR JORDAN 6 RETRO TRAVIS SCOTT</h2>
+                        <p class="card-content"><img style="width: 100%;" src="./cipok/szupi.webp" alt=""></p>
+                        <a class="card-link gomb" href="#">Vásárlás</a>
+                        <p>299 990Ft</p>
+                    </div>
+                </td>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <h2 class="card-title">AIR JORDAN 1 HIGH OG TWIST 2.0</h2>
+                            <p class="card-content"><img style="width: 100%;" src="./cipok/xd.webp" alt=""></p>
+                            <a class="card-link gomb" href="#">Vásárlás</a>
+                            <p>99 990Ft</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2 class="card-title">AIR JORDAN 1 RETRO LOW OG SP TRAVIS SCOTT BLACK PHANTOM</h2>
+                            <p class="card-content"><img style="width: 100%;" src="./cipok/xdddd.webp" alt=""></p>
+                            <a class="card-link gomb" href="#">Vásárlás</a>
+                            <p>354 990Ft</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2 class="card-title">AIR JORDAN 1 RETRO HIGH DIOR</h2>
+                            <p class="card-content"><img style="width: 100%;" src="./cipok/xddxdxdxxdxxx.webp" alt=""></p>
+                            <a class="card-link gomb" href="#">Vásárlás</a>
+                            <p>4 999 990Ft</p>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+        </tr>
+    </table>
+</body>
+
+</html>
